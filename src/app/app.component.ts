@@ -1,8 +1,7 @@
-import { Component } from '@angular/core';
-import {NgModel} from '@angular/forms';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-modified',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
