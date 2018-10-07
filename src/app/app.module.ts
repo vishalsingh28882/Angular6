@@ -7,6 +7,8 @@ import {ReceipesComponent} from './receipes/receipes.component';
 import {IngredientsComponent} from './ingredients/ingredients.component';
 import {TablesComponent} from './tables/tables.component';
 import {OrdersComponent} from './orders/orders.component';
+import {FlexLayoutModule} from '@angular/flex-layout';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {OrdersComponent} from './orders/orders.component';
     OrdersComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FlexLayoutModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
