@@ -15,6 +15,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import 'hammerjs';
 import {MyFormComponent} from './forms/my-form/my-form.component';
 import {MatButtonModule, MatInputModule} from '@angular/material';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {MatButtonModule, MatInputModule} from '@angular/material';
     BrowserModule,
     BrowserAnimationsModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
