@@ -11,6 +11,9 @@ import {ReceipeComponent} from './receipes/receipe/receipe.component';
 import {IngredientComponent} from './ingredients/ingredient/ingredient.component';
 import {SidenavComponent} from './sidenav/sidenav.component';
 import {HeaderComponent} from './header/header.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import 'hammerjs';
+import {MyFormComponent} from './forms/my-form/my-form.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +26,12 @@ import {HeaderComponent} from './header/header.component';
     ReceipeComponent,
     IngredientComponent,
     SidenavComponent,
-    HeaderComponent
+    HeaderComponent,
+    MyFormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
